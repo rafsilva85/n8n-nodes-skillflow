@@ -1,0 +1,28 @@
+{
+  "name": "n8n-nodes-skillflow",
+  "version": "0.1.0",
+  "description": "n8n community node for SkillFlow AI Skills Marketplace",
+  "keywords": [
+    "n8n-community-node-package",
+    "ai",
+    "skills",
+    "marketplace",
+    "agents"
+  ],
+  "main": "dist/nodes/SkillFlow/SkillFlow.node.js",
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "dist/nodes/SkillFlow/SkillFlow.node.js"
+    ]
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafsilva85/n8n-nodes-skillflow"
+  }
+}
